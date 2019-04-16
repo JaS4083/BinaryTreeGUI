@@ -22,6 +22,7 @@ public class TreeGui extends BinaryTreeAVL {
 	
 	
 public void drawNode (Graphics2D gg,int left, int right, int level, int dy, Node n) {
+	System.out.println("new feture!!!");
 		if (n == null) return;
 		int x = (left + right)/2;
 		int y = level * dy;
